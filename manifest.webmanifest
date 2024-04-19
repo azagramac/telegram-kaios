@@ -1,0 +1,66 @@
+{
+  "name": "Telegram",
+  "description": "Telegram client for KaiOS",
+  "start_url": "/index.html",
+  "theme": "#29a9ea",
+  "theme_color": "#29a9ea",
+  "background_color": "#29a9ea",
+  "display": "fullscreen",
+  "orientation": "default",
+  "categories": [
+    "social"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon56x56.png",
+      "type": "image/png",
+      "sizes": "56x56"
+    },
+    {
+      "src": "/icons/icon112x112.png",
+      "type": "image/png",
+      "sizes": "112x112"
+    }
+  ],
+  "b2g_features": {
+    "version": "3.0.0",
+    "type": "privileged",
+    "core": true,
+    "default_locale": "en-US",
+    "developer": {
+      "name": "AzagraMac",
+      "url": "https://github.com/AzagraMac/telegram-kaios"
+    },
+    "chrome": {
+      "statusbar": "overlap"
+    },
+    "origin": "svelte-telekram",
+    "permissions": {
+      "systemXHR": {
+        "description": "Required to load remote content"
+      },
+      "serviceworker": {
+        "description": "Needed for assocating service worker"
+      },
+      "desktop-notification": {
+        "description": "Required for displaying alerts when app is on background"
+      },
+      "video-capture": {
+        "description": "Required for qr-code reader"
+      }
+    },
+    "messages": [
+      {
+        "serviceworker-notification": "/index.html"
+      }
+    ],
+    "dependencies": {},
+    "locales": {
+      "en-US": {
+        "name": "Telegram",
+        "subtitle": "Telegram client for KaiOS",
+        "description": "Telegram client for KaiOS"
+      }
+    }
+  }
+}

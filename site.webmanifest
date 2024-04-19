@@ -1,0 +1,10 @@
+{
+  "name": "Telegram",
+  "short_name": "Telegram",
+  "start_url": "/index.html",
+  "description": "Telegram client for KaiOS",
+  "theme_color": "#29a9ea",
+  "background_color": "#29a9ea",
+  "display": "standalone",
+  "gcm_sender_id": "122867383838"
+}

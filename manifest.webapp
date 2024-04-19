@@ -1,0 +1,54 @@
+{
+  "name": "Telegram",
+  "description": "Telegram client for KaiOS",
+  "version": "1.0.1",
+  "launch_path": "/index.html",
+  "theme": "#29a9ea",
+  "theme_color": "#29a9ea",
+  "background_color": "#29a9ea",
+  "fullscreen": "true",
+  "chrome": {
+    "statusbar": "overlap"
+  },
+  "orientation": "default",
+  "icons": {
+    "56": "/icons/icon56x56.png",
+    "112": "/icons/icon112x112.png"
+  },
+  "categories": [
+    "social"
+  ],
+  "developer": {
+    "name": "AzagraMac",
+    "url": "https://github.com/AzagraMac/telegram-kaios"
+  },
+  "origin": "app://svelte-telekram.arma7x.com",
+  "type": "privileged",
+  "permissions": {
+    "systemXHR": {
+      "description": "Required to load remote content"
+    },
+    "serviceworker": {
+      "description": "Needed for assocating service worker"
+    },
+    "desktop-notification": {
+      "description": "Required for displaying alerts when app is on background"
+    },
+    "video-capture": {
+      "description": "Required for qr-code reader"
+    }
+  },
+  "messages": [
+    {
+      "serviceworker-notification": "/index.html"
+    }
+  ],
+  "locales": {
+    "en-US": {
+      "name": "Telegram",
+      "subtitle": "Telegram client for KaiOS",
+      "description": "Telegram client for KaiOS"
+    }
+  },
+  "default_locale": "en"
+}
